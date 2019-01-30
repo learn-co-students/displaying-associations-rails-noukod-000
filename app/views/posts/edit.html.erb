@@ -1,3 +1,4 @@
+
 <h1>Edit Post</h1>
 
 <%= form_for(@post) do |f| %>
@@ -13,7 +14,7 @@
 
   <div class="field">
     <%= f.label :category_id, 'Post Category:' %><br>
-    <%= f.collection_radio_buttons :category_id, @categories, :id, :name %>
+
   </div>
 
   <div class="actions">
