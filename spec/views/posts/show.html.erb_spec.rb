@@ -15,4 +15,4 @@
 #    visit post_path(@post)
 #    expect(page).to have_link(@category.name, href: category_path(@category))
 #  end
-#end
+#end#
