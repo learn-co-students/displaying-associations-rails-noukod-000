@@ -1,2 +1,4 @@
 class Category < ActiveRecord::Base
-end
+    has_many :posts
+    has_many :authors, through: :posts
+  end
